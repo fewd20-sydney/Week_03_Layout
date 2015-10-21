@@ -1,0 +1,204 @@
+.container{
+	margin: 0 auto;
+	width: 1000px;
+	background-color: #f0efef;
+}
+
+.header{
+	background-color: #033048;
+	height: 100px;
+	font-style: semi bold;
+	font-size: 24px;
+	width: 1000px;
+}
+
+.relax{
+	color: white;
+	font-style: open sans;
+	padding-left: 50px;
+	width: 20%;
+	display: inline-block;
+}
+
+.header a{
+	color: #f9e42e;
+}
+
+.navhead{
+	float: right;
+	margin top: 0;
+	padding-top: 40px;
+	width: 60%;
+	display: inline-block;
+
+}
+
+.cat{
+	font-size: 24px;
+	color: #033048;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	margin-bottom: 15px;
+}
+
+.pic{
+	float: left;
+	height: 775px;
+	width: 700px;
+	margin-left: 40px;
+	margin-right: 0px;
+	margin-top: 5px;
+	display: inline-block;
+}
+
+.biggray{
+	font-size: 40px;
+	color: #383838 ;
+}
+
+.read{
+	text-align: right;
+	font-size: 24px;
+	font-style: semi bold;
+	color: #033048;
+}
+
+hr{
+	border: 1px solid black;
+	height: 1px;
+	color: #033048;
+	background-color: #033048;
+}
+
+p{
+	font-size: 24px;
+	font-style: light;
+	color: #606161;
+	width: 600px;
+}
+
+.cata{
+	float: right;
+	height: 250px;
+	width: 240px;
+	display: inline-block;
+	margin-top: 5px;
+	margin-left: 0px;
+}
+
+ul{
+	margin-left: 0px;
+	padding-left: 0px
+}
+
+.about{
+	float: right;
+	height: 250px;
+	width: 240px;
+	display: inline-block;
+}
+
+.about1{
+	font-style: light;
+	font-size: 22px;
+	padding-bottom: 2px;
+}
+
+.learn{
+	font-style: semi bold;
+	font-size: 22px;
+	padding-top: 5px;
+	color: #033048;
+}
+
+.ad{
+	float: right;
+	height: 400px;
+	width: 240px;
+	display: inline-block;
+	color: #033048;
+}
+
+.travel{
+	float: left;
+	height: 750px;
+	width: 700px;
+	margin-left: 40px;
+	margin-right: 0px;
+	display: inline-block;
+}
+
+h3{
+	font-size: 40px;
+	font-style: semi bold;
+	color: #033048;
+}
+
+.up{
+	display: inline-block;
+	width: 1000px;
+	height: 60px;
+	margin-top: 50px;
+	background-color: #f9e42e;
+
+}
+
+#sign{
+	height: 35px;
+	text-align: center;
+	border: .5px solid black;
+	border-radius: 5px;
+	background-color: #033048;
+	width: 25%;
+	font-style: extra bold;
+	margin-left: 400px;
+}
+
+#sign a .now{
+	color: white;
+	font-size: 18px;
+	padding-top: 5px;
+}
+
+.footer{
+	background-color: #121212;
+	height: 225px;
+	width: 1000px;
+	display: inline-block;
+}
+
+.footer h3{
+	color: #f9e42e;
+	font-style: extra bold;
+	font-size: 28px;
+	text-align: center;
+}
+
+#copy{
+	color: white;
+	font-size: 9px;
+	font-style: semibold;
+	text-align: center;
+	margin-top: 50px;
+}
+.facebook{
+	margin-left: 0px;
+	margin-top: 20px;
+}
+.twitter{
+	margin-left: 475px
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
