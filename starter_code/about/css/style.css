@@ -1,0 +1,210 @@
+/*
+Project Name: Assignment
+Client: Relaxr
+Author: Audrey Krukoff
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     color: #000;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: 800;
+  color: white;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 600;
+  color: white;
+  position: center;
+}
+
+h3{
+  font-size: 14px;
+  font-weight: 800;
+  color: #121212;
+}
+
+h4{
+  font-size: 20px;
+  font-weight: 600;
+  color: #033048;
+}
+
+p{
+  font-size: 13px;
+  font-weight: 300;
+}
+
+a{
+  font-size: 40px;
+  color: white;
+  text-decoration: none;
+}
+
+q{
+  font-size: 18px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+b{
+  font-size: 18px;
+  font-weight: 600;
+}
+
+ul{
+  list-style-type: circle;
+  padding: 30px;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+.container {
+  width: 100%;
+  margin: auto;
+  height: 300px;
+  padding-left: 50px;
+  padding-top: 30px;
+  text-align: center;
+
+}
+
+#logo-header {
+  text-align: left;
+  padding-left: 50px;
+  padding-top: 30px;
+  background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+  background-size: cover;
+}
+
+
+header {
+  position: center;
+}
+
+footer {
+  background-color: #121212;
+  text-align: center;
+  padding: 50px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+#benefits {
+  background-color: #f0efef;
+  width: 100%;
+  margin: 0 0 0;
+  padding: 50px;
+}
+
+#quotes {
+  text-align: center;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: white;
+  background: url(../images/testimonial_bg.jpg) no-repeat center top rgb(134,141,157);
+  background-size: cover;
+}
+
+
+#wrapper {
+  background-color: #f9e42e;
+  padding: 30px;
+  text-align: center;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+h1#h1y{
+  color: #f9e42e;
+}
+
+p#p01{
+  font-size: 9px;
+}
+
+.blue-button {
+  background-color:#033048;
+  border-radius:5px;
+  border:1px solid #033048;
+  display:inline-block;
+  cursor:pointer;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800;
+  font-size:12px;
+  padding:16px 31px;
+  text-decoration:none;
+}
+
+.blue-button:hover {
+  background-color:#01255F;
+}
+
+.yellow-button {
+  background-color:#f9e42e;
+  border-radius:5px;
+  border:1px solid #FCBA22;
+  display:inline-block;
+  cursor:pointer;
+  color: #121212;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800;
+  font-size:14px;
+  padding:10px 31px;
+  margin: 50px;
+  text-decoration:none;
+
+}
+.yellow-button:hover {
+  background-color:#FCBA22;
+}
+
+
+
