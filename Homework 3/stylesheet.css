@@ -1,0 +1,286 @@
+/*
+Project Name: Relaxr Blog
+Client: Week 3 Assignment
+Author: Freya Doney
+Developer @GA in SYD
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+    line-height: 1.5;
+    font-family: 'Open Sans', sans-serif;
+    cursor: default;
+
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+#container {
+  max-width:1080px;
+  margin: 0 auto;
+
+}
+
+nav{
+  width: 100%;
+  height: 110px;
+  background-color:#033048;
+}
+
+.logo{
+  padding:10px 0px;
+  font-family: 'Open Sans', sans-serif;
+  float: left;
+  width: 20%;
+  height: 100px;
+  background-color:#033048;
+  margin: 0 0 0 5%;
+}
+
+.logo a{
+  text-decoration: none;
+  color: white;
+  font-size:42px;
+  font-style: bold;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.button{
+  float: right;
+  width: auto;
+  height: 40px;
+  margin: 3.5% 10px 5px 2.5%;
+  background-color:#033048;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.button-right{
+  padding-right: 30px;
+}
+
+.button a{
+  color: #f9e42e;
+  font-size:24px;
+  font-weight: 600;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.content{
+  width: 100%;
+  height:auto;
+  padding-right:6%;
+  padding-left:6%;
+  background-color:#f0efef; 
+  float:left;
+}
+
+.main{
+  width: 700px;
+  float: left;
+  background-color:#f0efef; 
+  padding-right: 10px;
+}
+
+.section{
+  width:700px;
+  padding-right: 10px;
+}
+
+.section h2{
+  color:#033048;
+  font-size: 40px;
+  font-weight:600;
+  font-family:'Open Sans', sans-serif;
+}
+
+.section img{
+  width: 700px;
+  height: auto;
+  padding-right:10px;
+}
+
+.section p{
+  font-weight:300;
+  color:#606161;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.section .read{
+  float:right;
+}
+
+.section a{
+  text-decoration: none;
+  color:#033048;
+  font-size:24px;
+  font-weight:600;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.sidebar{
+  width: 240px;
+  float:right;
+  background-color:#f0efef;
+  padding-left: 10px;
+  display: block;
+}
+
+.sidebar h3{
+  color:#033048;
+  font-size: 32px;
+  font-weight:800;
+  font-family:'Open Sans', sans-serif;
+}
+
+.sidebar a{
+  color:#033048;
+  font-size:24px;
+  font-weight:300;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.sidebar p{
+  color:#033048;
+  font-size:22px;
+  font-weight:300;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.sidebar img{
+  width: 200px;
+  height: auto;
+  padding-top: 10px;
+
+}
+
+.sidebar .read{
+  font-size:22px;
+  font-weight:600;
+}
+
+footer {
+  background-color:#121212;
+  display:block;
+  float:left;
+  width:100%;
+  padding:30px 460px 10px 460px;
+  text-align:center;
+  padding:20px auto;
+
+}
+
+.sectionC{
+  background-color:#f9e42e;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding: 25px 0;
+  text-align:center;
+}
+
+.sectionC a{
+  text-decoration: none;
+  background-color: #033048;
+  color:white;
+  text-align:center;
+  padding: 10px 30px;
+  border:black 1pt solid;
+  border-radius:5px;
+  font-size:16px;
+  font-weight:600;
+  font-family: 'Open Sans', sans-serif;
+}
+
+footer h1{
+  color:#f9e42e;
+  font-size: 24px;
+  font-weight: 800;
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 1px;
+  padding-top:30px;
+}
+
+.social-media{
+  width: 100%;
+  height: 50px;
+  text-align:center;
+  padding-bottom: 25px;
+}
+
+footer a{ 
+  max-width:15px; 
+  max-height: auto;
+}
+
+footer p{
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  font-size: 9px;
+  font-weight: 600;
+  padding-bottom: 15px;
+  padding-top: 10px;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+
+
+
