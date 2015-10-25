@@ -96,7 +96,7 @@ nav{
 }
 
 .logo a:hover{
-  color: yellow;
+  color: #f9e42e;
 }
 
 .button{
@@ -278,7 +278,7 @@ nav{
 }
 
 .sidebar-categories a:hover{
-  color:yellow;
+  color:#f9e42e;
 }
 
 .sidebar .read{
@@ -295,7 +295,7 @@ nav{
 }
 
 .sidebar-about a:hover{
-  color: yellow;
+  color: #f9e42e;
 }
 
 footer {
@@ -340,7 +340,7 @@ footer {
 }
 
 .sectionC a:hover{
-  color: yellow;
+  color: #f9e42e;
 }
 
 footer h1{
