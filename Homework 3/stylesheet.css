@@ -61,7 +61,6 @@ body {
 #container {
   max-width:1080px;
   margin: 0 auto;
-
 }
 
 nav{
@@ -88,6 +87,18 @@ nav{
   font-family: 'Open Sans', sans-serif;
 }
 
+.logo a:link{
+  color:white;
+}
+
+.logo a:visited{
+  color: red;
+}
+
+.logo a:hover{
+  color: yellow;
+}
+
 .button{
   float: right;
   width: auto;
@@ -111,6 +122,18 @@ nav{
 
 }
 
+.button a:link{
+  color:#f9e42e;
+}
+
+.button a:visited{
+  color: red;
+}
+
+.button a:hover{
+  color: white;
+}
+
 .clearfix:after {
      content: ".";
      display: block;
@@ -127,6 +150,7 @@ nav{
   padding-left:6%;
   background-color:#f0efef; 
   float:left;
+  padding-bottom: 20px;
 }
 
 .main{
@@ -172,6 +196,18 @@ nav{
   font-family: 'Open Sans', sans-serif;
 }
 
+.section a:link{
+  color:#033048;
+}
+
+.section a:visited{
+  color: red;
+}
+
+.section a:hover{
+  color: white;
+}
+
 .sidebar{
   width: 240px;
   float:right;
@@ -195,6 +231,18 @@ nav{
   font-family: 'Open Sans', sans-serif;
 }
 
+.section a:link{
+  color:#033048;
+}
+
+.section a:visited{
+  color: red;
+}
+
+.section a:hover{
+  color: white;
+}
+
 .sidebar p{
   color:#033048;
   font-size:22px;
@@ -209,9 +257,33 @@ nav{
 
 }
 
+.sidebar-categories a:link{
+  color:#033048;
+}
+
+.sidebar-categories a:visited{
+  color:red;
+}
+
+.sidebar-categories a:hover{
+  color:yellow;
+}
+
 .sidebar .read{
   font-size:22px;
   font-weight:600;
+}
+
+.sidebar-about a:link{
+  color:#033048;
+}
+
+.sidebar-about a:visited{
+  color: red;
+}
+
+.sidebar-about a:hover{
+  color: yellow;
 }
 
 footer {
@@ -225,7 +297,7 @@ footer {
 
 }
 
-.sectionC{
+.sectionC {
   background-color:#f9e42e;
   width: 100%;
   height: auto;
@@ -234,7 +306,7 @@ footer {
   text-align:center;
 }
 
-.sectionC a{
+.sectionC a {
   text-decoration: none;
   background-color: #033048;
   color:white;
@@ -245,6 +317,18 @@ footer {
   font-size:16px;
   font-weight:600;
   font-family: 'Open Sans', sans-serif;
+}
+
+.sectionC a:link{
+  color:white;
+}
+
+.sectionC a:visited{
+  color: red;
+}
+
+.sectionC a:hover{
+  color: yellow;
 }
 
 footer h1{
